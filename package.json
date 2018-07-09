@@ -1,4 +1,4 @@
-{
+﻿{
   "name": "ArkClient",
   "version": "1.6.0",
   "productName": "ArkClient",
@@ -24,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ArkEcosystem/ark-desktop.git"
+    "url": "git+https://github.com/CryptoMountainsEcosystem/desktop-wallet.git"
   },
   "keywords": [
     "Ark",
