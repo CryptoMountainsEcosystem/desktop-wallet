@@ -55,9 +55,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ArkEcosystem/ark-desktop/issues"
+    "url": "https://github.com/CryptoMountainsEcosystem/desktop-wallet/issues"
   },
-  "homepage": "https://github.com/ArkEcosystem/ark-desktop#readme",
+  "homepage": "https://github.com/CryptoMountainsEcosystem/desktop-wallet#readme",
   "dependencies": {
     "@destinationstransfers/ntp": "^1.1.0",
     "about-window": "^1.11.0",
@@ -65,7 +65,7 @@
     "csv-parse": "^2.0.0",
     "electron-window-state": "^4.1.1",
     "elemon": "^5.0.3",
-    "ledgerco": "github:ledgerhq/ledger-node-js-api#6cde5978b9d0a4922f0d33520b16cc2184559ebc",
+    "ledgerco": "github:ledgerhq/ledger-node-js-api#6cde5978b9d0a4922f0d33520b16cc2184559ebc"
     "moment-range": "^3.1.0",
     "moment-timezone": "^0.5.14",
     "q": "^1.5.0"
@@ -106,9 +106,9 @@
     "spectron": "^3.7.2"
   },
   "build": {
-    "appId": "com.arkwallet.liteclient",
+    "appId": "com.cmtwallet.liteclient",
     "protocols": {
-      "name": "Ark URI scheme",
+      "name": "CMT URI scheme",
       "schemes": [
         "ark"
       ],
@@ -122,7 +122,7 @@
       "icon": "build/icon.ico"
     },
     "linux": {
-      "description": "A Lite Client used to securely connect to the Ark network and manage your Ark assets.",
+      "description": "A Lite Client used to securely connect to the CMT network and manage your CMT assets.",
       "target": [
         "deb",
         "tar.xz"
@@ -133,7 +133,7 @@
       "category": "Network"
     },
     "deb": {
-      "synopsis": "Ark Desktop Wallet"
+      "synopsis": "CMT Desktop Wallet"
     },
     "dmg": {
       "icon": "build/icon.icns"
