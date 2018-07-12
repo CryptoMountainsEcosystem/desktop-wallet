@@ -1,8 +1,8 @@
-﻿{
+{
   "name": "ArkClient",
   "version": "1.6.0",
   "productName": "ArkClient",
-  "description": "CMT Desktop Wallet",
+  "description": "Ark Desktop Wallet",
   "main": "main.js",
   "scripts": {
     "postinstall": "cd client && npm install && npm run bundle && cd .. && electron-builder install-app-deps && npm run rebuild",
@@ -24,10 +24,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CryptoMountainsEcosystem/desktop-wallet.git"
+    "url": "git+https://github.com/ArkEcosystem/ark-desktop.git"
   },
   "keywords": [
-    "CMT",
+    "Ark",
     "Client",
     "Electron"
   ],
@@ -55,9 +55,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/CryptoMountainsEcosystem/desktop-wallet/issues"
+    "url": "https://github.com/ArkEcosystem/ark-desktop/issues"
   },
-  "homepage": "https://github.com/CryptoMountainsEcosystem/desktop-wallet#readme",
+  "homepage": "https://github.com/ArkEcosystem/ark-desktop#readme",
   "dependencies": {
     "@destinationstransfers/ntp": "^1.1.0",
     "about-window": "^1.11.0",
@@ -65,7 +65,7 @@
     "csv-parse": "^2.0.0",
     "electron-window-state": "^4.1.1",
     "elemon": "^5.0.3",
-    "ledgerco": "github:ledgerhq/ledger-node-js-api#6cde5978b9d0a4922f0d33520b16cc2184559ebc"
+    "ledgerco": "github:ledgerhq/ledger-node-js-api#6cde5978b9d0a4922f0d33520b16cc2184559ebc",
     "moment-range": "^3.1.0",
     "moment-timezone": "^0.5.14",
     "q": "^1.5.0"
@@ -106,9 +106,9 @@
     "spectron": "^3.7.2"
   },
   "build": {
-    "appId": "com.cmtwallet.liteclient",
+    "appId": "com.arkwallet.liteclient",
     "protocols": {
-      "name": "CMT URI scheme",
+      "name": "Ark URI scheme",
       "schemes": [
         "ark"
       ],
@@ -122,7 +122,7 @@
       "icon": "build/icon.ico"
     },
     "linux": {
-      "description": "A Lite Client used to securely connect to the CMT network and manage your CMT assets.",
+      "description": "A Lite Client used to securely connect to the Ark network and manage your Ark assets.",
       "target": [
         "deb",
         "tar.xz"
@@ -133,7 +133,7 @@
       "category": "Network"
     },
     "deb": {
-      "synopsis": "CMT Desktop Wallet"
+      "synopsis": "Ark Desktop Wallet"
     },
     "dmg": {
       "icon": "build/icon.icns"
