@@ -2,8 +2,8 @@
   'use strict'
 
   angular.module('arkclient.constants')
-    // 1 ARK has 100000000 "arktoshi"
-    .constant('ARKTOSHI_UNIT', Math.pow(10, 8))
+    // 1 CMT has 100 "cmtoshi"
+    .constant('ARKTOSHI_UNIT', Math.pow(10, 2))
     .constant('TRANSACTION_TYPES', {
       'SEND_ARK': 0,
       'CREATE_SECOND_PASSPHRASE': 1,

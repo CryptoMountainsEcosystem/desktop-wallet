@@ -1,8 +1,8 @@
 {
-  "name": "ArkClient",
+  "name": "CMTClient",
   "version": "1.6.0",
-  "productName": "ArkClient",
-  "description": "Ark Desktop Wallet",
+  "productName": "CMTClient",
+  "description": "CMT Desktop Wallet",
   "main": "main.js",
   "scripts": {
     "postinstall": "cd client && npm install && npm run bundle && cd .. && electron-builder install-app-deps && npm run rebuild",
@@ -24,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ArkEcosystem/ark-desktop.git"
+    "url": "git+https://github.com/CryptoMountainsEcosystem/desktop-wallet.git"
   },
   "keywords": [
     "Ark",
@@ -32,11 +32,16 @@
     "Electron"
   ],
   "author": {
-    "name": "Fx Thoorens",
-    "email": "fixcrypt@gmail.com",
-    "url": "https://github.com/fix"
+    "name": "Lorenzo Caruso",
+    "email": "cryptogroup@outlook.it",
+    "url": "https://github.com/CryptoMountainsEcosystem"
   },
   "contributors": [
+    {
+      "name": "Fx Thoorens",
+      "email": "fixcrypt@gmail.com",
+      "url": "https://github.com/fix"
+    },
     {
       "name": "Guillaume Verbal",
       "email": "doweig@ark.io",
@@ -55,12 +60,12 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ArkEcosystem/ark-desktop/issues"
+    "url": "https://github.com/CryptoMountainsEcosystem/desktop-wallet/issues"
   },
-  "homepage": "https://github.com/ArkEcosystem/ark-desktop#readme",
+  "homepage": "https://github.com/CryptoMountainsEcosystem/desktop-wallet#readme",
   "dependencies": {
     "@destinationstransfers/ntp": "^1.1.0",
-    "about-window": "^1.11.0",
+    "about-window": "^1.12.1",
     "async": "^2.5.0",
     "csv-parse": "^2.0.0",
     "electron-window-state": "^4.1.1",
@@ -79,8 +84,8 @@
     "cross-env": "^5.0.5",
     "devtron": "^1.4.0",
     "electron": "^1.8.7",
-    "electron-builder": "^20.15.0",
-    "electron-rebuild": "^1.7.2",
+    "electron-builder": "^20.22.0",
+    "electron-rebuild": "^1.8.1",
     "eslint": "^4.14.0",
     "eslint-config-standard": "^11.0.0-beta.0",
     "eslint-plugin-import": "^2.8.0",
@@ -88,7 +93,7 @@
     "eslint-plugin-promise": "^3.6.0",
     "eslint-plugin-standard": "^3.0.1",
     "grunt": "~1.0.1",
-    "grunt-angular-gettext": "^2.3.6",
+    "grunt-angular-gettext": "^2.3.11",
     "grunt-contrib-jshint": "~1.1.0",
     "grunt-contrib-nodeunit": "^2.0.0",
     "grunt-contrib-uglify": "~3.1.0",
@@ -100,15 +105,15 @@
     "karma-sinon": "^1.0.5",
     "karma-sinon-chai": "^1.3.3",
     "mocha": "^5.2.0",
-    "node-hid": "^0.7.2",
+    "node-hid": "^0.7.3",
     "sinon": "^4.1.1",
     "sinon-chai": "^2.14.0",
     "spectron": "^3.7.2"
   },
   "build": {
-    "appId": "com.arkwallet.liteclient",
+    "appId": "com.CMTwallet.liteclient",
     "protocols": {
-      "name": "Ark URI scheme",
+      "name": "CMT URI scheme",
       "schemes": [
         "ark"
       ],
@@ -122,7 +127,7 @@
       "icon": "build/icon.ico"
     },
     "linux": {
-      "description": "A Lite Client used to securely connect to the Ark network and manage your Ark assets.",
+      "description": "A Lite Client used to securely connect to the CMT network and manage your Ark assets.",
       "target": [
         "deb",
         "tar.xz"
@@ -133,7 +138,7 @@
       "category": "Network"
     },
     "deb": {
-      "synopsis": "Ark Desktop Wallet"
+      "synopsis": "CMT Desktop Wallet"
     },
     "dmg": {
       "icon": "build/icon.icns"

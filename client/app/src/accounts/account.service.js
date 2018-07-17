@@ -17,11 +17,11 @@
     const ark = require(require('path').resolve(__dirname, '../node_modules/arkjs'))
 
     self.defaultFees = {
-      'send': 0,
-      'vote': 10000000000000,
-      'secondsignature': 500000000,
-      'delegate': 10000000000000,
-      'multisignature': 500000000
+      'send': 100,
+      'vote': 100000000,
+      'secondsignature': 500,
+      'delegate': 100000000,
+      'multisignature': 500
     }
 
     self.cachedFees = null
