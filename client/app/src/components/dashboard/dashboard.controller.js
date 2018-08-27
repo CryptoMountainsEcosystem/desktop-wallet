@@ -45,7 +45,7 @@
             })
           }
         })
-        .catch(_ => toastService.error(gettext('Error loading the announcements.'), 3000))
+        .catch(_ => toastService.error(gettext('Nessuna news presente.'), 3000))
     }
   }
 })()
