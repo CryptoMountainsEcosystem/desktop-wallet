@@ -15,7 +15,7 @@
         restrict: 'A',
         require: '?ngModel',
         link: function (scope, elem, attrs, ctrl) {
-          const defaultBackground = 'url(assets/images/images/Ark.jpg)'
+          const defaultBackground = 'url(assets/images/images/CMT.jpg)'
           // This is the custom configuration of textures
           const textures = {
             'Ahoy.jpg': {

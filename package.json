@@ -1,6 +1,6 @@
 {
   "name": "CMTClient",
-  "version": "1.6.0",
+  "version": "1.0.0",
   "productName": "CMTClient",
   "description": "CMT Desktop Wallet",
   "main": "main.js",
@@ -47,7 +47,7 @@
       "email": "doweig@ark.io",
       "url": "https://github.com/doweig"
     },
-     {
+    {
       "name": "Lucio Rubens",
       "email": "lucio@ark.io",
       "url": "https://github.com/luciorubeens"
@@ -127,7 +127,7 @@
       "icon": "build/icon.ico"
     },
     "linux": {
-      "description": "A Lite Client used to securely connect to the Ark network and manage your Ark assets.",
+      "description": "A Lite Client used to securely connect to the CMT network and manage your CMT assets.",
       "target": [
         "deb",
         "tar.xz"

@@ -108,7 +108,7 @@
       n = storageService.getGlobal('networks')
       if (!n) {
         n = {
-          mainnet: createNetworkFromArkJs(mainNetArkJsNetworkKey, 0x1C, 1, 'url(assets/images/images/Ark.jpg)'),
+          mainnet: createNetworkFromArkJs(mainNetArkJsNetworkKey, 0x1C, 1, 'url(assets/images/images/CMT.jpg)'),
           devnet: createNetworkFromArkJs(devNetArkJsNetworkKey, 30, 1, '#222299')
         }
         storageService.setGlobal('networks', n)
