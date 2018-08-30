@@ -143,11 +143,11 @@ function createWindow () {
   const about = {
     role: 'about',
     click: () => openAboutWindow({
-      icon_path: `${__dirname}/client/ark.png`,
+      icon_path: `${__dirname}/client/cmt.png`,
       package_json_dir: __dirname,
-      copyright: 'Copyright (c) 2017 ARK',
-      homepage: 'https://ark.io/',
-      bug_report_url: 'https://github.com/ArkEcosystem/ark-desktop/issues'
+      copyright: 'Copyright (c) 2018 CryptoMountains',
+      homepage: '',
+      bug_report_url: 'https://github.com/CryptoMountainsEcosystem/desktop-wallet/issues'
     })
   }
 
