@@ -143,7 +143,7 @@ function createWindow () {
   const about = {
     role: 'about',
     click: () => openAboutWindow({
-      icon_path: `${__dirname}/client/cmt.png`,
+      icon_path: `${__dirname}/client/cmtsfondo.png`,
       package_json_dir: __dirname,
       copyright: 'Copyright (c) 2018 CryptoMountains',
       homepage: '',
