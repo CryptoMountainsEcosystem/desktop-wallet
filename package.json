@@ -1,7 +1,7 @@
 {
   "name": "CMTClient",
   "version": "1.0.0",
-  "productName": "CMTClient",
+  "productName": "CMT Client",
   "description": "CMT Desktop Wallet",
   "main": "main.js",
   "scripts": {
@@ -32,7 +32,7 @@
     "Electron"
   ],
   "author": {
-    "name": "Lorenzo Caruso",
+    "name": "Cryptocaru",
     "email": "cryptogroup@outlook.it",
     "url": "https://github.com/CryptoMountainsEcosystem"
   },
