@@ -8,9 +8,6 @@ Collaborate with other translators on our OneSky project and help us get wallet 
 
 Please do not submit Pull-Requests (PRs) for translations, but use the link above!
 
-## Download
-[Latest Release](https://github.com/CMTEcosystem/CMT-desktop/releases)
-
 ## Installing via Package Managers
 
 #### AUR
@@ -50,11 +47,6 @@ brew cask install CMTclient
 * (soon) Deposit or withdraw CMT using altcoins or USD (via exchange) - no registration needed.
 * (soon) Multisignature accounts.
 * **SAVE YOUR PASSPHRASE(S) - if you lose it, you lose access to that particular CMT address(es). There is no forgot my password option with blockchains and no one can help you retrieve it!**
-
-
-## Screenshots
-![dashboard](https://i.imgur.com/AVdyM16.jpg)
-![account](https://i.imgur.com/DD8fx1O.jpg)
 
 ## Build
 
