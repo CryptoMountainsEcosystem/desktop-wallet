@@ -1,9 +1,3 @@
-
-[![Build Status](https://travis-ci.org/CMTEcosystem/desktop-wallet.svg?branch=master)](https://travis-ci.org/CMTEcosystem/CMT-desktop)
-[![Github Latest Release](https://img.shields.io/github/release/CMTEcosystem/desktop-wallet.svg)](https://github.com/CMTEcosystem/desktop-wallet/releases/latest)
-[![Github Downloads](https://img.shields.io/github/downloads/CMTEcosystem/desktop-wallet/latest/total.svg?logo=github)](https://github.com/CMTEcosystem/desktop-wallet/releases/latest)
-[![Gitter Room](https://img.shields.io/gitter/room/CMT-developers/Lobby.svg?logo=gitter-white&colorB=e53467)](https://gitter.im/CMT-developers/Lobby)
-
 # Pinned: Critical bugs only!
 Since we are working on the next-gen version of the wallet, we won't be reviewing pull requests with new features and bugs (only critical bugs will be reviewed and merged). Our intention is deploying the first beta of the v2 desktop wallet in a few weeks time so we need to be focused on it exclusively.
 
@@ -94,18 +88,8 @@ brew tap Homebrew/bundle
 brew bundle
 ```
 
-## Contributing
-
-* If you find any bugs, submit an [issue](../../issues) or open [pull-request](../../pulls), helping us catch and fix them.
-* Engage with other users and developers on [CMT Slack](https://CMT.io/slack/).
-* Join to our [gitter](https://gitter.im/CMT-developers/Lobby).
-* [Contribute bounties](./CONTRIBUTING.md).
-
 ## Authors
-- FX Thoorens <fx@CMT.io>
-- Guillaume Verbal <doweig@CMT.io>
-- Lúcio Rubens <lucio@CMT.io>
-- Juan Martín <juan@CMT.io>
+- Lorenzo Caruso <lorenzo.caruso@outlook.com>
 
 ## License
 
